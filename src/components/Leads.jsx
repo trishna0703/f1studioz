@@ -1,18 +1,17 @@
-import React, { useEffect } from "react";
-import Sidebar from "./Sidebar";
-import Header from "./Header";
 import "../styles/leads.css";
+import Header from "./Header";
+import Sidebar from "./Sidebar";
 import CustomTabs from "./MenuTabs";
+import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { detectDeviceType } from "../utils/commonFunctions";
 import { setSelectedLead } from "../redux/slice/lead";
+import { detectDeviceType } from "../utils/commonFunctions";
 
 const Leads = () => {
   const dispatch = useDispatch();
   const isMobile = detectDeviceType();
   useEffect(() => {
     if (isMobile) {
-      console.log("entered");
       dispatch(setSelectedLead(0));
     }
   }, []);

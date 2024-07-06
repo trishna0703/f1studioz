@@ -1,25 +1,16 @@
-import React, { useEffect, useRef, useState } from "react";
 import "../styles/leadDetail.css";
-import { CgExpand } from "react-icons/cg";
-import { MdOutlineEdit, MdOutlineEmail } from "react-icons/md";
-import { useDispatch, useSelector } from "react-redux";
 import leads from "../data/leads.json";
-import { FaLinkedinIn } from "react-icons/fa6";
-import {
-  Button,
-  ClickAwayListener,
-  Grow,
-  MenuList,
-  Popper,
-  MenuItem,
-  Paper,
-  Menu,
-} from "@mui/material";
+import { CgExpand } from "react-icons/cg";
 import SelectOwner from "./SelectDropdown";
-import { FaLongArrowAltRight } from "react-icons/fa";
 import { BiArrowBack } from "react-icons/bi";
-import { detectDeviceType } from "../utils/commonFunctions";
+import { FaLinkedinIn } from "react-icons/fa6";
+import React, { useEffect, useState } from "react";
+import { FaLongArrowAltRight } from "react-icons/fa";
 import { setSelectedLead } from "../redux/slice/lead";
+import { Button, MenuItem, Menu } from "@mui/material";
+import { useDispatch, useSelector } from "react-redux";
+import { detectDeviceType } from "../utils/commonFunctions";
+import { MdOutlineEdit, MdOutlineEmail } from "react-icons/md";
 
 const LeadDetails = () => {
   const dispatch = useDispatch();

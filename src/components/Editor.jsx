@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
+import { setNotes } from "../redux/slice/notes";
 import ToggleButton from "@mui/material/ToggleButton";
+import { useDispatch, useSelector } from "react-redux";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import { FiBold, FiItalic, FiList, FiUnderline } from "react-icons/fi";
-import { useDispatch, useSelector } from "react-redux";
-import { setNotes } from "../redux/slice/notes";
 
 export default function Editor() {
   const { notes } = useSelector((state) => state.notes);
@@ -37,7 +37,6 @@ export default function Editor() {
     editableRef.current.innerHTML = "";
   };
 
-  console.log({ note });
   return (
     <div className="editor">
       <div

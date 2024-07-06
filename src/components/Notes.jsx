@@ -1,15 +1,14 @@
+import Editor from "./Editor";
 import React, { useState } from "react";
 import { CiMenuKebab } from "react-icons/ci";
-import Editor from "./Editor";
-import { useDispatch, useSelector } from "react-redux";
-import { deleteNote } from "../redux/slice/notes";
 import { PiTrashSimple } from "react-icons/pi";
+import { deleteNote } from "../redux/slice/notes";
+import { useDispatch, useSelector } from "react-redux";
 
 const Notes = () => {
   const [showEditor, setShowEditor] = useState(false);
   const { notes } = useSelector((state) => state.notes);
   const dispatch = useDispatch();
-  console.log({ notes });
 
   const handleDelete = (id) => {
     dispatch(deleteNote(id));

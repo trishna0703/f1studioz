@@ -1,21 +1,21 @@
-import React, { useEffect, useState } from "react";
 import { CiLocationOn } from "react-icons/ci";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { PiUserCheckLight } from "react-icons/pi";
-import { detectDeviceType } from "../utils/commonFunctions";
+import React, { useEffect, useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import { detectDeviceType } from "../utils/commonFunctions";
 
 const Founder = ({ founder }) => {
   const isMobile = detectDeviceType();
-  const [showMetadata, setShowMetaData] = useState(true);
+  const [showMetadata, setShowMetadata] = useState(true);
 
   const handleToggleMetaData = () => {
-    setShowMetaData(!showMetadata);
+    setShowMetadata(!showMetadata);
   };
 
   useEffect(() => {
     if (window.matchMedia("(max-width: 578px)").matches) {
-      setShowMetaData(false);
+      setShowMetadata(false);
     }
   }, []);
   return (

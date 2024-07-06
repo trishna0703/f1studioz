@@ -107,8 +107,15 @@ button.skipBtn {
 .selectOwner {
   width: 49%;
 }
+
 .secondaryOwner {
   width: 39%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px dashed #cfd9e2;
+  color: #cfd9e2;
 }
 .sendMessage {
   width: 59%;
@@ -144,14 +151,7 @@ button.skipBtn {
   display: flex;
   align-items: center;
 }
-.secondaryOwner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  border: 1px dashed #cfd9e2;
-  color: #cfd9e2;
-}
+
 .messageInput {
   border: 1px solid #cfd9e2;
   display: flex;
@@ -279,8 +279,3 @@ label#select-owner-label {
     font-size: 24px;
   }
 }
-/* @media (max-width: 420px) {
-  span.linkedInIcon {
-    display: none;
-  }
-} */

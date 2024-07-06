@@ -1,14 +1,12 @@
-import React, { useEffect } from "react";
-import leads from "../data/leads.json";
+import React from "react";
 import "../styles/list.css";
+import leads from "../data/leads.json";
 import { useDispatch, useSelector } from "react-redux";
 import { setSelectedLead } from "../redux/slice/lead";
-import { detectDeviceType } from "../utils/commonFunctions";
 
 const NewLeadsList = () => {
   const { selectedLead } = useSelector((state) => state.leads);
   const dispatch = useDispatch();
-  const isMobile = detectDeviceType();
   const handleLeadClick = (id) => {
     dispatch(setSelectedLead(id));
   };

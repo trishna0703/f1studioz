@@ -1,25 +1,15 @@
-import React, { useEffect, useRef, useState } from "react";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
+import React, { useState } from "react";
 import NewLeadsList from "./NewLeadsList";
-import { detectDeviceType } from "../utils/commonFunctions";
-import { useDispatch, useSelector } from "react-redux";
-import { setSelectedLead } from "../redux/slice/lead";
-import LeadTabContent from "./LeadTabContent";
-import { TabList, TabContext, TabPanel } from "@mui/lab";
+import { useSelector } from "react-redux";
 import { MdGridView } from "react-icons/md";
 import { RiListView } from "react-icons/ri";
-import {
-  Button,
-  ClickAwayListener,
-  Grow,
-  Menu,
-  MenuItem,
-  MenuList,
-  Paper,
-  Popper,
-} from "@mui/material";
+import LeadTabContent from "./LeadTabContent";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { Button, Menu, MenuItem } from "@mui/material";
+import { TabList, TabContext, TabPanel } from "@mui/lab";
+import { detectDeviceType } from "../utils/commonFunctions";
 
 const MenuTabs = () => {
   const [value, setValue] = useState("1");
@@ -39,7 +29,6 @@ const MenuTabs = () => {
     setValue(newValue);
   };
 
-  console.log({ isMobile, selectedLead });
   return (
     <Box>
       <TabContext value={value}>
@@ -89,7 +78,6 @@ const MenuTabs = () => {
             <div className="tabContentWrapper">
               <NewLeadsList />
               <LeadTabContent />
-              {/* {isMobile && selectedLead == 0 ? null : <LeadTabContent />} */}
             </div>
           ) : null}
           {isMobile && selectedLead !== 0 ? (

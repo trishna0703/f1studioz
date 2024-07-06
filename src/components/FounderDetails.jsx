@@ -1,12 +1,12 @@
 import React from "react";
+import Notes from "./Notes";
+import Founder from "./Founder";
+import "../styles/tabContent.css";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
-import { TabList, TabContext, TabPanel } from "@mui/lab";
-import Notes from "./Notes";
 import founders from "../data/founders.json";
-import Founder from "./Founder";
 import { MdOutlineEdit } from "react-icons/md";
-import "../styles/tabContent.css";
+import { TabList, TabContext, TabPanel } from "@mui/lab";
 
 const FounderDetails = () => {
   const [value, setValue] = React.useState("2");

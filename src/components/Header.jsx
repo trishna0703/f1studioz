@@ -1,12 +1,11 @@
 import React from "react";
 import "../styles/header.css";
-import { useDispatch, useSelector } from "react-redux";
-import { showSidebar } from "../redux/slice/sidebar";
+import { IoMdMenu } from "react-icons/io";
 import { FaRegKeyboard } from "react-icons/fa6";
 import { MdOutlineFilterAlt } from "react-icons/md";
-import { CiSearch } from "react-icons/ci";
+import { showSidebar } from "../redux/slice/sidebar";
+import { useDispatch, useSelector } from "react-redux";
 import { IoFilterOutline, IoSearch } from "react-icons/io5";
-import { IoMdMenu } from "react-icons/io";
 
 const Header = () => {
   const { isOpen, activeMenu } = useSelector((state) => state.sidebar);

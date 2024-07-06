@@ -7,10 +7,10 @@ import {
   MenuItem,
   Paper,
 } from "@mui/material";
-import React, { useState, useRef, useEffect } from "react";
-import { BsGrid1X2Fill } from "react-icons/bs";
 import { FaListUl } from "react-icons/fa6";
+import { BsGrid1X2Fill } from "react-icons/bs";
 import { MdArrowDropDown } from "react-icons/md";
+import React, { useState, useRef, useEffect } from "react";
 
 const Sort = () => {
   const [open, setOpen] = useState(false);
@@ -24,7 +24,6 @@ const Sort = () => {
     if (anchorRef.current && anchorRef.current.contains(event.target)) {
       return;
     }
-
     setOpen(false);
   };
 
