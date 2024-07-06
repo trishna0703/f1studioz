@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "name": "Prateek Yadav",
+        "description": "Co-Founder & CTO @ Zeko | Building SaaS for Hotels",
+        "profileScore": 35,
+        "profilePicture": "/images/founder1.png",
+        "location": "Bengaluru, Karnataka",
+        "experiences": [
+            {
+                "id": 1,
+                "designation": "Co-Founder & CTO",
+                "companyLogo": "/images/1.png",
+                "company": "Zeko",
+                "duration": "Nov 2022 - Present"
+            },
+            {
+                "id": 2,
+                "designation": "Software Engineer",
+                "companyLogo": "/images/uc.png",
+                "company": "Urban Company",
+                "duration": "Feb 2022 - Nov 2022"
+            },
+            {
+                "id": 3,
+                "designation": "Software Development Intern",
+                "companyLogo": "/images/swiggy.png",
+                "company": "Swiggy",
+                "duration": "Aug 2021 - Dec 2021"
+            },
+            {
+                "id": 4,
+                "designation": "Software Development Intern",
+                "companyLogo": "/images/uc.png",
+                "company": "Urban Company",
+                "duration": "Feb 2021 - Nov 2021"
+            }
+        ],
+        "education": [
+            {
+                "id": 1,
+                "university": "Birla Institute of Technology and Science, Pilani",
+                "universityLogo": "/images/bits.png",
+                "duration": "2016-2022"
+            },
+            {
+                "id": 2,
+                "university": "Birla Institute of Technology and Science, Pilani",
+                "universityLogo": "/images/bits.png",
+                "duration": "2016-2021"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Umesh Sharma",
+        "description": "Simplifying Guest Interactions and Empowering hoteliers",
+        "profileScore": 35,
+        "profilePicture": "/images/founder2.png",
+        "location": "Bengaluru, Karnataka",
+        "experiences": [
+            {
+                "id": 1,
+                "designation": "Co-Founder & CTO",
+                "companyLogo": "/images/1.png",
+                "company": "Zeko",
+                "duration": "Nov 2022 - Present"
+            },
+            {
+                "id": 2,
+                "designation": "Software Engineer",
+                "companyLogo": "/images/uc.png",
+                "company": "Urban Company",
+                "duration": "Feb 2022 - Nov 2022"
+            },
+            {
+                "id": 3,
+                "designation": "Software Development Intern",
+                "companyLogo": "/images/swiggy.png",
+                "company": "Swiggy",
+                "duration": "Aug 2021 - Dec 2021"
+            },
+            {
+                "id": 4,
+                "designation": "Software Development Intern",
+                "companyLogo": "/images/uc.png",
+                "company": "Urban Company",
+                "duration": "Feb 2021 - Nov 2021"
+            }
+        ],
+        "education": [
+            {
+                "id": 1,
+                "university": "Birla Institute of Technology and Science, Pilani",
+                "universityLogo": "/images/bits.png",
+                "duration": "2016-2022"
+            },
+            {
+                "id": 2,
+                "university": "Birla Institute of Technology and Science, Pilani",
+                "universityLogo": "/images/bits.png",
+                "duration": "2016-2021"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Swapnil Tagwale",
+        "description": "Building Zeko | Walmart | BITS Pilani",
+        "profileScore": 35,
+        "profilePicture": "/images/founder3.png",
+        "location": "Bengaluru, Karnataka",
+        "experiences": [
+            {
+                "id": 1,
+                "designation": "Co-Founder & CTO",
+                "companyLogo": "/images/1.png",
+                "company": "Zeko",
+                "duration": "Nov 2022 - Present"
+            },
+            {
+                "id": 2,
+                "designation": "Software Engineer",
+                "companyLogo": "/images/uc.png",
+                "company": "Urban Company",
+                "duration": "Feb 2022 - Nov 2022"
+            },
+            {
+                "id": 3,
+                "designation": "Software Development Intern",
+                "companyLogo": "/images/swiggy.png",
+                "company": "Swiggy",
+                "duration": "Aug 2021 - Dec 2021"
+            },
+            {
+                "id": 4,
+                "designation": "Software Development Intern",
+                "companyLogo": "/images/uc.png",
+                "company": "Urban Company",
+                "duration": "Feb 2021 - Nov 2021"
+            }
+        ],
+        "education": [
+            {
+                "id": 1,
+                "university": "Birla Institute of Technology and Science, Pilani",
+                "universityLogo": "/images/bits.png",
+                "duration": "2016-2022"
+            },
+            {
+                "id": 2,
+                "university": "Birla Institute of Technology and Science, Pilani",
+                "universityLogo": "/images/bits.png",
+                "duration": "2016-2021"
+            }
+        ]
+    }
+]

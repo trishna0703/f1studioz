@@ -1,0 +1,69 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 1rem;
+}
+.metaDataSection,
+.search,
+.searchSection {
+  display: flex;
+  align-items: center;
+}
+.pageTitle h1 {
+  font-weight: 300;
+  font-family: "Inter";
+}
+.search {
+  background: #f5f3fb;
+  padding: 12px;
+  border-radius: 4px;
+  color: #47576a;
+}
+
+.search input {
+  background-color: transparent;
+  border: none;
+  padding-left: 10px;
+}
+.search svg,
+.searchMobile svg {
+  color: #47576a;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.virtualKeyBoard {
+  font-size: 22px;
+  color: #47576a;
+  margin-right: 12px;
+}
+.searchMobile {
+  display: none;
+}
+.burgerIcon {
+  display: none;
+}
+.burgerIcon button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #47576a;
+}
+@media (max-width: 768px) {
+  .searchMobile {
+    display: block;
+  }
+  .searchMobile span {
+    margin: 10px;
+  }
+  .search,
+  .virtualKeyBoard {
+    display: none;
+  }
+  .burgerIcon {
+    display: block;
+    padding-right: 15px;
+  }
+}

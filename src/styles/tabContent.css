@@ -1,0 +1,371 @@
+.founderDetailTabs {
+  width: 95%;
+  margin-left: auto;
+  padding-top: 1rem;
+}
+.tabHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.tabHeading h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.tabHeading svg {
+  font-size: 24px;
+  color: #47576a;
+}
+.founderWrapper,
+.metaDetailSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.profileSection {
+  background: #dfe5ed;
+  width: 22%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 4px 0 0 4px;
+}
+span.founderCount {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #c0bdbdb5;
+  font-size: 12px;
+  padding: 5px;
+}
+.avatar {
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+.metaDetailSection {
+  background: #f5f3fb;
+  padding: 1rem;
+  width: 78%;
+  border-radius: 0 4px 4px 0;
+}
+.experience,
+.education {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+.experience img,
+.education img {
+  width: 28px;
+  margin-right: 10px;
+}
+.expDetail h6,
+.eduDetail h6 {
+  font-size: 14px;
+  color: #3d3d3d;
+  padding-bottom: 4px;
+}
+.expDetail span,
+.eduDetail span {
+  font-size: 13px;
+  color: #7e7c7c;
+}
+.heading {
+  font-size: 12px;
+  color: #7e7c7c;
+}
+.founderWrapper {
+  margin: 10px 0;
+  align-items: stretch;
+}
+.description h4 {
+  color: #23303e;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 8px 0px 0px;
+}
+.avatar img {
+  width: 100%;
+}
+.description small {
+  font-size: 11px;
+  color: #47576a;
+  display: inline-block;
+  padding: 6px 6px 6px 0;
+  line-height: 1.5;
+}
+.description button {
+  color: #5101a0;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  padding: 5px;
+  background: #fff;
+  font-size: 12px;
+}
+.socials span {
+  background: #fff;
+  margin-right: 10px;
+  color: #47576a;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials {
+  margin-top: 10px;
+}
+
+.socials span:last-of-type {
+  background: #0a66c2;
+  color: #fff;
+}
+.notesSection {
+  background: #f5f3fb;
+  padding: 1rem;
+  border-radius: 4px;
+  min-height: 260px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.editor {
+  width: 100%;
+  background: #fff;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding: 8px;
+}
+.controls .MuiToggleButtonGroup-root button {
+  border: none;
+  margin: 0 5px;
+}
+.notesSection input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+.notesSection plaintext {
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  color: #91a3b7;
+}
+.editable {
+  min-height: 50px;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+.controls .addNotes {
+  color: #fff;
+  background: #5101a0;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+.displayNotes {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4px 10px;
+  background: #fff;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.displayNotes button {
+  background: none;
+  border: none;
+  padding: 10px 5px;
+  font-size: 20px;
+  color: #47576a;
+}
+.displayNotes p {
+  font-size: 14px;
+}
+.displayNotes small {
+  color: #7e7c7c;
+  font-size: 11px;
+}
+.displayNotes p ul {
+  padding-left: 2rem;
+}
+.css-advny6-MuiPopper-root {
+  z-index: 1;
+}
+.location {
+  font-size: 12px;
+  color: #91a3b7;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.metaDataNav {
+  font-size: 14px;
+  padding: 10px 0;
+  color: #3c3b3b;
+}
+.metaDataNav span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.location span:first-of-type {
+  background: #91a3b7;
+  padding: 2px;
+  border-radius: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  margin-right: 8px;
+}
+@media (max-width: 1200px) {
+  .founderWrapper {
+    flex-direction: column;
+  }
+  .profileSection {
+    width: 100%;
+    flex-direction: row;
+  }
+  .avatar img {
+    width: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+    height: 100px;
+  }
+  .avatar {
+    width: auto;
+  }
+  span.founderCount {
+    display: none;
+  }
+  .socials span:nth-of-type(2) {
+    display: none;
+  }
+  .description button {
+    width: auto;
+  }
+  .description {
+    width: 65%;
+  }
+  .metaDetailSection {
+    width: 100%;
+  }
+  .experienceSection,
+  .educationSection {
+    padding: 5px;
+    width: 49%;
+    align-items: flex-start;
+  }
+  .experienceSection {
+    border-right: 1px solid #ccc;
+  }
+  .expDetail span span,
+  .eduDetail span span {
+    display: inline-block;
+  }
+}
+@media (max-width: 992px) {
+  .metaDetailSection {
+    flex-direction: column;
+  }
+  .experienceSection,
+  .educationSection {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .experienceSection {
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+  }
+  .description {
+    width: 55%;
+  }
+  .MuiTabs-scroller.MuiTabs-fixed.css-jpln7h-MuiTabs-scroller {
+    overflow-x: scroll !important;
+  }
+}
+@media (max-width: 769px) {
+  .leadDetailwrapper {
+    width: 100%;
+    padding: 0;
+  }
+  .founderDetailTabs {
+    width: 100%;
+    background: #ebe8f7;
+    padding: 0;
+  }
+  .founderDetailTabs .MuiBox-root.css-1gsv261 {
+    background: #fff;
+  }
+  .profileSection {
+    background: #fff;
+  }
+  .description {
+    width: 60%;
+  }
+  .avatar {
+    margin: 0 auto;
+  }
+  .description button {
+    width: auto;
+    background: #ebe8f7;
+  }
+  .founderDetailTabs .css-1eo0my9-MuiTabPanel-root {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 577px) {
+  .description {
+    width: 65%;
+  }
+  .avatar img {
+    width: 70px;
+    height: 70px;
+  }
+  .metaDetail {
+    padding-top: 10px;
+  }
+  .metaDataNav {
+    font-size: 12px;
+  }
+  .expDetail h6,
+  .eduDetail h6 {
+    font-size: 13px;
+  }
+  .expDetail span,
+  .eduDetail span {
+    font-size: 12px;
+  }
+  .socials span:first-of-type {
+    display: none;
+  }
+  .metaDetailWrap:last-of-type {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .avatar img {
+    width: 55px;
+    height: 55px;
+  }
+}

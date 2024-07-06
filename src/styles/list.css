@@ -1,0 +1,109 @@
+.tabContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.leadsList {
+  background: #f1f4f8;
+  width: 22%;
+  overflow: scroll;
+  height: 86vh;
+  padding-bottom: 1rem;
+}
+.leadsList::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.leadsList::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+.customTabPanel .MuiBox-root {
+  padding: 0;
+}
+
+.singleLead {
+  background: #fff;
+  margin: 6px;
+  border-radius: 4px;
+  padding: 10px;
+}
+.leadHead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.leadHeading {
+  width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 12px;
+}
+.leadHeading small,
+.leadBody small {
+  color: #aaa;
+  font-size: 12px;
+}
+.leadHeading small strong,
+.leadBody small strong {
+  font-weight: 600;
+}
+.marker {
+  background: #f1f4f8;
+  padding: 2px;
+  color: #77889b;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 12px;
+  width: 15%;
+  font-weight: 500;
+}
+.leadBody p {
+  font-size: 14px;
+  color: #23303e;
+  padding: 10px 0;
+}
+.leadHeading h4 {
+  font-size: 20px;
+  color: #23303e;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.leadLogo {
+  width: 15%;
+}
+.active.singleLead {
+  background: transparent;
+}
+.active.singleLead .marker {
+  background: #fff;
+}
+
+@media (max-width: 1200px) {
+  .leadsList {
+    width: 30%;
+  }
+  .leadDetailwrapper {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .leadsList {
+    height: auto;
+    width: 100%;
+  }
+  .sortSection {
+    display: none;
+  }
+  .leadLogo {
+    width: auto;
+  }
+  .leadHead .marker {
+    width: auto;
+  }
+  .leadHeading {
+    margin-right: auto;
+  }
+}

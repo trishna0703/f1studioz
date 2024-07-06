@@ -1,0 +1,37 @@
+[{
+    "id":1,
+    "name":"My Workspace",
+    "icon":"images/workspace.png",
+    "href":""
+
+},{
+    "id":2,
+    "name":"Leads",
+    "icon":"/images/leads.png",
+    "href":""
+
+},{
+    "id":3,
+    "name":"POI Alerts",
+    "icon":"/images/poi.png",
+    "href":""
+
+},{
+    "id":4,
+    "name":"Fund Tracking",
+    "icon":"/images/funds.png",
+    "href":""
+
+},{
+    "id":5,
+    "name":"My Meetings",
+    "icon":"/images/meetings.png",
+    "href":""
+
+},{
+    "id":6,
+    "name":"My Profile",
+    "icon":"/images/profileIcon.png",
+    "href":""
+
+}]

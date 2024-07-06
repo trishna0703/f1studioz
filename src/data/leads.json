@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "logo": "/images/1.png",
+        "name": "Zeko Tech",
+        "metaData": "Zeko is an end-to-end guest interactions platform that makes hotels more efficient & profitable. With a focus on empowering hoteliers with modern tech solutions."
+    },
+    {
+        "id": 2,
+        "logo": "/images/2.png",
+        "name": "Flecks Lab",
+        "metaData": "Building a gaming platform"
+    },
+    {
+        "id": 3,
+        "logo": "/images/3.png",
+        "name": "Stealth - Rajesh S",
+        "metaData": ""
+    },
+    {
+        "id": 4,
+        "logo": "/images/4.png",
+        "name": "Merse",
+        "metaData": "YC W23 company; API testing tool"
+    },
+    {
+        "id": 5,
+        "logo": "/images/5.png",
+        "name": "Regulo",
+        "metaData": "Regulo is working on proprietary technology to reduce the AML hits ..."
+    },
+    {
+        "id": 6,
+        "logo": "/images/5.png",
+        "name": "Regulo",
+        "metaData": "Regulo is working on proprietary technology to reduce the AML hits ..."
+    },
+    {
+        "id": 7,
+        "logo": "/images/5.png",
+        "name": "Regulo",
+        "metaData": "Regulo is working on proprietary technology to reduce the AML hits ..."
+    }
+]
