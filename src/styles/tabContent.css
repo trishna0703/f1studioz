@@ -165,6 +165,7 @@ span.founderCount {
   width: 100%;
   margin: auto;
   color: #91a3b7;
+  white-space: normal;
 }
 .editable {
   min-height: 50px;
@@ -298,7 +299,7 @@ span.founderCount {
   .description {
     width: 55%;
   }
-  .MuiTabs-scroller.MuiTabs-fixed.css-jpln7h-MuiTabs-scroller {
+  .founderDetailTabs .MuiTabs-scroller {
     overflow-x: scroll !important;
   }
 }
@@ -328,8 +329,11 @@ span.founderCount {
     width: auto;
     background: #ebe8f7;
   }
-  .founderDetailTabs .css-1eo0my9-MuiTabPanel-root {
+  .founderDetailTabs .MuiTabPanel-root {
     padding: 1rem;
+  }
+  .MuiTabPanel-root {
+    padding: 0 1rem;
   }
 }
 
